@@ -1,6 +1,6 @@
 # myPedia — Content Calendar
 
-A static, Instagram-grid style social media content calendar for **myPedia**, a pediatric clinic. It lays out scheduled posts (Aug 10 – Aug 22, 2026) as a responsive card grid, mixing Carousel, Reel, and Static post types, using the first slide of each carousel as the feed thumbnail — matching how Instagram displays carousels in-grid.
+A static, Instagram-grid style social media content calendar for **myPedia**, a pediatric clinic. It lays out scheduled posts (Aug 10 – Aug 28, 2026) as a responsive card grid, mixing Carousel, Reel, and Static post types, using the first slide of each carousel as the feed thumbnail — matching how Instagram displays carousels in-grid.
 
 Plain HTML + CSS, no framework, no build step, no dependencies.
 
@@ -9,10 +9,6 @@ Plain HTML + CSS, no framework, no build step, no dependencies.
 - `index.html` — the full page markup and content
 - `styles.css` — all styling
 - Post thumbnails are hotlinked directly from Google Drive's image CDN (`lh3.googleusercontent.com`) — no binary assets are stored in this repo.
-
-## Pending content
-
-The Aug 10 **Reel** and **Static** cards are placeholders (diagonal-striped background) awaiting final media from the client. Once those images/video are provided, replace the placeholder `<div class="placeholder-icon">` block in `index.html` with an `<img>`/`<video>` tag pointing at the asset, matching the pattern used by the Carousel cards.
 
 ## Deploying on Vercel
 
