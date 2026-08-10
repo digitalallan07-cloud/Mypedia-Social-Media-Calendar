@@ -7,6 +7,10 @@
   --pink-border: #fce7f3;
   --carousel: #0d9488;
   --carousel-bg: #ccfbf1;
+  --reel: #7c3aed;
+  --reel-bg: #ede9fe;
+  --static: #475569;
+  --static-bg: #e2e8f0;
   --text-main: #1f2937;
   --text-sub: #6b7280;
   --text-tag: #9ca3af;
@@ -98,6 +102,16 @@ body {
   color: var(--carousel);
 }
 
+.pill-reel {
+  background: var(--reel-bg);
+  color: var(--reel);
+}
+
+.pill-static {
+  background: var(--static-bg);
+  color: var(--static);
+}
+
 /* Month section */
 .month-header {
   font-size: 13px;
@@ -179,6 +193,38 @@ body {
 
 .badge-carousel {
   background: var(--carousel);
+}
+
+.badge-reel {
+  background: var(--reel);
+}
+
+.badge-static {
+  background: var(--static);
+}
+
+/* Placeholder cards — awaiting client-provided media */
+.placeholder-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: repeating-linear-gradient(
+    45deg,
+    #f3f4f6,
+    #f3f4f6 10px,
+    #e5e7eb 10px,
+    #e5e7eb 20px
+  );
+}
+
+.placeholder-icon {
+  font-size: 40px;
+  opacity: 0.5;
+}
+
+.card-placeholder .card-title {
+  color: var(--text-sub);
+  font-style: italic;
 }
 
 .card-body {
