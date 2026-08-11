@@ -1,6 +1,6 @@
 # myPedia — Content Calendar
 
-A static, Instagram-grid style social media content calendar for **myPedia**, a pediatric clinic. It lays out scheduled posts (Aug 10 – Aug 28, 2026) as a responsive card grid, mixing Carousel, Reel, and Static post types, using the first slide of each carousel as the feed thumbnail — matching how Instagram displays carousels in-grid.
+A static, Instagram-grid style social media content calendar for **myPedia**, a pediatric clinic. It lays out scheduled posts (Aug 11 – Sep 10, 2026) as a responsive card grid, mixing Carousel, Reel, and Static post types, using the first slide of each carousel as the feed thumbnail — matching how Instagram displays carousels in-grid.
 
 Plain HTML + CSS, no framework, no build step, no dependencies.
 
