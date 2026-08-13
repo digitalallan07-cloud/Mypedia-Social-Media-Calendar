@@ -1,6 +1,6 @@
 # myPedia — Content Calendar
 
-A static, Instagram-grid style social media content calendar for **myPedia**, a pediatric clinic. It lays out scheduled posts (Aug 10 – Oct 01, 2026, every card 2 days apart) as a responsive card grid, one row per topic: **left = Static photo, middle = Carousel graphic, right = Reel**. Each row belongs to a content pillar (Dental or Pediatric).
+A static, Instagram-grid style social media content calendar for **myPedia**, a pediatric clinic. It lays out scheduled posts (Aug 10 – Oct 02, 2026, every card 2 days apart) as a responsive card grid, one row per topic: **left = Static photo, middle = Carousel graphic, right = Reel**. Each row belongs to a content pillar (Dental or Pediatric).
 
 Plain HTML + CSS, no framework, no build step, no dependencies.
 
