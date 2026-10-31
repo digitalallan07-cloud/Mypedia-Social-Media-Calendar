@@ -1,6 +1,6 @@
 # myPedia — Content Calendar
 
-A static, Instagram-grid style social media content calendar for **myPedia**, a pediatric clinic. It lays out scheduled posts (Aug 10 – Dec 19, 2026, mostly 2 days apart) as a responsive card grid. August–October follows one row per topic (**left = Static photo, middle = Carousel graphic, right = Reel**); November–December pairs each Reel with its matching Carousel post (reel first, carousel second), with 10 two-slide Carousel posts swipeable via a touch/click slider, plus 5 standalone Dr. Medhat reels at the end. Cards show their content pillar (Dental or Pediatric).
+A static, Instagram-grid style social media content calendar for **myPedia**, a pediatric clinic. It lays out scheduled posts (Aug 10 – Dec 19, 2026, mostly 2 days apart) as a responsive card grid. August–October follows one row per topic (**left = Static photo, middle = Carousel graphic, right = Reel**); November–December pairs each Reel with its matching Carousel post (reel first, carousel second), with 10 two-slide Carousel posts swipeable via a touch/click slider. The doctor pairs and 5 standalone Dr. Medhat reels are interleaved so no single doctor's content appears back-to-back. Cards show their content pillar (Dental or Pediatric).
 
 Plain HTML + CSS + a small vanilla-JS slider script, no framework, no build step, no dependencies.
 
